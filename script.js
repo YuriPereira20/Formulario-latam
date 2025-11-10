@@ -144,8 +144,7 @@ function setupRealtimeValidation() {
         { id: 'nombre_completo', type: 'text' },
         { id: 'email', type: 'email' },
         { id: 'whatsapp', type: 'whatsapp' },
-        { id: 'referentes', type: 'textarea' },
-        { id: 'desafio_principal', type: 'textarea' }
+        { id: 'referentes', type: 'textarea' }
     ];
 
     textFields.forEach(({ id, type }) => {
@@ -211,7 +210,6 @@ function validateForm() {
     if (!validateField('email', 'email')) isValid = false;
     if (!validateField('whatsapp', 'whatsapp')) isValid = false;
     if (!validateField('referentes', 'textarea')) isValid = false;
-    if (!validateField('desafio_principal', 'textarea')) isValid = false;
 
     // Validar radio buttons obrigatórios
     if (!validateField('nivel_trafico', 'radio')) isValid = false;
