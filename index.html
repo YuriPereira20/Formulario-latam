@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor(a) de Tráfico - Remoto (LATAM)</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KRQF25FV');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRQF25FV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="container">
+        <header class="header">
+            <h1>🚀 Vacante: Gestor(a) de Tráfico – Remoto (LATAM)</h1>
+            <p class="subtitle">
+                Estamos buscando un(a) Gestor(a) de Tráfico para apoyar en campañas digitales en distintos países de Latinoamérica.<br>
+                Trabajo 100% remoto, no requiere exclusividad y ofrecemos pagos en USD con posibilidad de crecimiento.
+            </p>
+
+            <div class="salary-info">
+                <h3>Rango mensual:</h3>
+                <ul>
+                    <li><strong>Junior:</strong> US$300 – US$600</li>
+                    <li><strong>Intermedio:</strong> US$600 – US$1.200</li>
+                </ul>
+                <p class="bonus-note">(Bonos por resultados pueden aplicar)</p>
+            </div>
+
+            <p class="cta-text">Si te gusta el tráfico pago y quieres crecer, completa este formulario (toma 3–5 min).</p>
+        </header>
+
+        <form id="trafficManagerForm" novalidate>
+            <!-- Sección: Información Personal -->
+            <section class="form-section">
+                <h2>📍 Información Personal</h2>
+
+                <div class="form-group">
+                    <label for="nombre_completo">Nombre completo <span class="required">*</span></label>
+                    <input
+                        type="text"
+                        id="nombre_completo"
+                        name="nombre_completo"
+                        placeholder="Escribe tu nombre completo"
+                        required
+                    >
+                    <span class="error-message" id="error_nombre_completo"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico <span class="required">*</span></label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Tu mejor correo para contactarte"
+                        required
+                    >
+                    <span class="error-message" id="error_email"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp (con código de país) <span class="required">*</span></label>
+                    <input
+                        type="tel"
+                        id="whatsapp"
+                        name="whatsapp"
+                        placeholder="Ejemplo: +57 300 123 4567"
+                        required
+                    >
+                    <span class="error-message" id="error_whatsapp"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="instagram">Instagram (opcional)</label>
+                    <input
+                        type="text"
+                        id="instagram"
+                        name="instagram"
+                        placeholder="@tuusuario"
+                    >
+                </div>
+            </section>
+
+            <!-- Sección: Experiencia con Tráfico Pago -->
+            <section class="form-section">
+                <h2>👨‍💻 Tu Experiencia con Tráfico Pago</h2>
+
+                <div class="form-group">
+                    <label>¿Cómo describirías tu nivel actual con tráfico pago? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="nivel_trafico" value="Estoy empezando y quiero aprender" required>
+                            <span>Estoy empezando y quiero aprender</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="nivel_trafico" value="Tengo algo de experiencia">
+                            <span>Tengo algo de experiencia</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="nivel_trafico" value="Tengo experiencia y busco crecer">
+                            <span>Tengo experiencia y busco crecer</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="nivel_trafico" value="Tengo mucha experiencia">
+                            <span>Tengo mucha experiencia</span>
+                        </label>
+                    </div>
+                    <span class="error-message" id="error_nivel_trafico"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Experiencia con Clientes -->
+            <section class="form-section">
+                <h2>👥 Experiencia con Clientes / Proyectos</h2>
+
+                <div class="form-group">
+                    <label>¿Has gestionado campañas para clientes o proyectos? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="experiencia_clientes" value="Nunca, solo para práctica o proyectos propios" required>
+                            <span>Nunca, solo para práctica o proyectos propios</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="experiencia_clientes" value="Sí, para 1 cliente o proyecto">
+                            <span>Sí, para 1 cliente o proyecto</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="experiencia_clientes" value="Sí, para 2 a 3 clientes o proyectos">
+                            <span>Sí, para 2 a 3 clientes o proyectos</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="experiencia_clientes" value="Sí, para 4 a 10 clientes o proyectos">
+                            <span>Sí, para 4 a 10 clientes o proyectos</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="experiencia_clientes" value="Más de 10 clientes o proyectos">
+                            <span>Más de 10 clientes o proyectos</span>
+                        </label>
+                    </div>
+                    <span class="error-message" id="error_experiencia_clientes"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Plataformas -->
+            <section class="form-section">
+                <h2>📍 Plataformas que Conoces</h2>
+
+                <div class="form-group">
+                    <label>¿En qué plataformas has creado campañas? <span class="required">*</span> <small>(Marca todas las que apliquen)</small></label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="plataformas" value="Meta Ads (Facebook / Instagram)">
+                            <span>Meta Ads (Facebook / Instagram)</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="plataformas" value="Google Ads">
+                            <span>Google Ads</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="plataformas" value="TikTok Ads">
+                            <span>TikTok Ads</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="plataformas" value="Kwai Ads">
+                            <span>Kwai Ads</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="plataformas" value="No he creado campañas todavía, pero quiero aprender">
+                            <span>No he creado campañas todavía, pero quiero aprender</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="plataformas" value="Otras">
+                            <span>Otras</span>
+                        </label>
+                    </div>
+                    <span class="error-message" id="error_plataformas"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Presupuesto -->
+            <section class="form-section">
+                <h2>💰 Presupuesto que Has Gestionado</h2>
+
+                <div class="form-group">
+                    <label>¿Cuál ha sido el presupuesto mensual aproximado que has gestionado? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="presupuesto" value="Nunca gestioné presupuesto" required>
+                            <span>Nunca gestioné presupuesto</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="presupuesto" value="Hasta US$500/mes">
+                            <span>Hasta US$500/mes</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="presupuesto" value="US$500 – US$2.000/mes">
+                            <span>US$500 – US$2.000/mes</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="presupuesto" value="US$2.000 – US$10.000/mes">
+                            <span>US$2.000 – US$10.000/mes</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="presupuesto" value="Más de US$10.000/mes">
+                            <span>Más de US$10.000/mes</span>
+                        </label>
+                    </div>
+                    <span class="error-message" id="error_presupuesto"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Formação -->
+            <section class="form-section">
+                <h2>🎓 Formación y Aprendizaje</h2>
+
+                <div class="form-group">
+                    <label>¿Has invertido en cursos o formación sobre tráfico o marketing digital? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="formacion" value="Aún no, pero estoy dispuesto(a) a aprender" required>
+                            <span>Aún no, pero estoy dispuesto(a) a aprender</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="formacion" value="Sí, cursos básicos">
+                            <span>Sí, cursos básicos</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="formacion" value="Sí, cursos o mentorías de nivel intermedio">
+                            <span>Sí, cursos o mentorías de nivel intermedio</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="formacion" value="Sí, he invertido bastante en mi formación">
+                            <span>Sí, he invertido bastante en mi formación</span>
+                        </label>
+                    </div>
+                    <span class="error-message" id="error_formacion"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Referentes -->
+            <section class="form-section">
+                <h2>🌟 Referentes</h2>
+
+                <div class="form-group">
+                    <label for="referentes">¿Tienes referentes en el mundo del tráfico o marketing digital? <span class="required">*</span> <small>(Comparte algunos nombres si quieres)</small></label>
+                    <textarea
+                        id="referentes"
+                        name="referentes"
+                        rows="3"
+                        placeholder="Escribe aquí los nombres de tus referentes..."
+                        required
+                    ></textarea>
+                    <span class="error-message" id="error_referentes"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Interesses -->
+            <section class="form-section">
+                <h2>🧲 Intereses y Nichos</h2>
+
+                <div class="form-group">
+                    <label>¿En qué tipo de proyectos te gustaría trabajar o tienes experiencia? <span class="required">*</span></label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="intereses" value="Negocios locales">
+                            <span>Negocios locales</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="intereses" value="E-commerce">
+                            <span>E-commerce</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="intereses" value="Infoproductos">
+                            <span>Infoproductos</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="intereses" value="Afiliados">
+                            <span>Afiliados</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="intereses" value="iGaming">
+                            <span>iGaming</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="intereses" value="Nutra">
+                            <span>Nutra</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="intereses" value="No tengo experiencia, pero quiero aprender">
+                            <span>No tengo experiencia, pero quiero aprender</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="intereses" value="Otro">
+                            <span>Otro</span>
+                        </label>
+                    </div>
+                    <span class="error-message" id="error_intereses"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Disponibilidade -->
+            <section class="form-section">
+                <h2>✨ Disponibilidad</h2>
+
+                <div class="form-group">
+                    <label>¿Estás abierto(a) a una oportunidad de trabajo remoto en tráfico pago? <span class="required">*</span></label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="disponibilidad" value="Sí, estoy buscando trabajo" required>
+                            <span>Sí, estoy buscando trabajo</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="disponibilidad" value="Depende de la propuesta">
+                            <span>Depende de la propuesta</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="disponibilidad" value="Por ahora no, pero quiero estar en contacto">
+                            <span>Por ahora no, pero quiero estar en contacto</span>
+                        </label>
+                    </div>
+                    <span class="error-message" id="error_disponibilidad"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Desafío Principal -->
+            <section class="form-section">
+                <h2>🎯 Tu Mayor Desafío</h2>
+
+                <div class="form-group">
+                    <label for="desafio_principal">¿Cuál es el desafío más grande que enfrentás hoy en la gestión de campañas? <span class="required">*</span></label>
+                    <p class="field-description">Puede ser algo relacionado a resultados, clientes, presupuesto, herramientas, comunicación, etc.</p>
+                    <textarea
+                        id="desafio_principal"
+                        name="desafio_principal"
+                        rows="4"
+                        placeholder="Comparte tu mayor desafío actual..."
+                        required
+                    ></textarea>
+                    <span class="error-message" id="error_desafio_principal"></span>
+                </div>
+            </section>
+
+            <!-- Sección: Medición Resultados (Opcional) -->
+            <section class="form-section">
+                <h2>📊 (Opcional) Sobre tu forma de medir resultados</h2>
+
+                <div class="form-group">
+                    <label for="medicion_resultados">¿Cómo haces actualmente el seguimiento de los resultados de tus campañas? <small>(Opcional)</small></label>
+                    <textarea
+                        id="medicion_resultados"
+                        name="medicion_resultados"
+                        rows="4"
+                        placeholder="Puedes compartir qué herramientas usas, cómo mides las ventas o leads, y qué tan fácil o difícil es para ti hacer el seguimiento."
+                    ></textarea>
+                </div>
+            </section>
+
+            <!-- Botão de Envio -->
+            <div class="form-actions">
+                <button type="submit" id="submitBtn" class="submit-btn">
+                    <span class="btn-text">Enviar Formulario</span>
+                    <span class="btn-loading" style="display: none;">Enviando...</span>
+                </button>
+            </div>
+
+            <!-- Mensagem de Sucesso -->
+            <div id="successMessage" class="success-message" style="display: none;">
+                <h3>✅ ¡Formulario enviado con éxito!</h3>
+                <p>Gracias por tu interés. Revisaremos tu información y nos pondremos en contacto contigo pronto.</p>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 - Gestor de Tráfico LATAM. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
