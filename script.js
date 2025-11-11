@@ -180,11 +180,15 @@ function setupRealtimeValidation() {
 
 // Coletar dados do formulário
 function collectFormData() {
+    // Limpar WhatsApp removendo caracteres especiais (+, -, espaços, parênteses)
+    const whatsappRaw = document.getElementById('whatsapp').value.trim();
+    const whatsappClean = whatsappRaw.replace(/[\s\-\(\)\+]/g, '');
+
     const formData = {
         timestamp: new Date().toISOString(),
         nombre_completo: document.getElementById('nombre_completo').value.trim(),
         email: document.getElementById('email').value.trim(),
-        whatsapp: document.getElementById('whatsapp').value.trim(),
+        whatsapp: whatsappClean,
         instagram: document.getElementById('instagram').value.trim() || '',
         nivel_trafico: document.querySelector('input[name="nivel_trafico"]:checked')?.value || '',
         experiencia_clientes: document.querySelector('input[name="experiencia_clientes"]:checked')?.value || '',
